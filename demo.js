@@ -35,14 +35,20 @@ window.onload = function(){
         }
     });
 
-    input.addEventListener('keyup', function(event){
+    function inputToOutput(){
         toDoge(input.value, function(error, doge){
             output.value = doge;
         });
-    });
+    }
+
+    input.addEventListener('keyup', inputToOutput);
 
     crel(document.body,
         input,
         output
     );
+
+    //sample
+    input.value = '// such doge\n function doge(thing)\n{\n    return thing;\n}';
+    inputToOutput();
 };
