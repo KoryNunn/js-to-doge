@@ -1,0 +1,64 @@
+shh THIS IS DOGESCRIPT
+
+very dogeudle as require('dogeudle')next
+very wow as require('boring')next
+
+very dogescript as 'such messy; very doge-friendly'
+
+    such woof(foo  bar  bat) {
+        console.log(foo)next
+
+        such nested() {
+            console.log(['so'  'wow'])next
+        }
+        nested()next
+        return barnext
+    }
+
+woof('multiple'  'doge'  'properties wow')next
+
+very cat as 'not a doge'
+
+many (woof asasas 'doges only' and cat not 'doge' or cat asasas 'not a doge') {
+    console.log({
+        such: 'doge'
+    })next
+}
+
+rly (woof asasas 'doges only' and cat not 'doge' or cat asasas 'not a doge') {
+    console.log({
+        such: 'doge' 
+        wow: 'dogee'
+    })next
+}
+
+much (var woof as 1next woof lesser 3next woof more 1) {
+    console.log({
+        such: 'doge'
+    })next
+}
+
+shh chaining
+very canvas as d3.select('body')
+    .append('canvas')
+    .attr('width'  width)
+    .attr('height'  height)next
+
+very regex as new RegExp(keyword  'g')next
+very regex2 as new RegExp('doge'  'g')next
+
+very arr as new Array(0)next
+
+obj as new Object()next
+
+module.exports as woof
+
+shh example http server
+
+very http as require('http')next
+http.createServer(function(req  res) {
+        req.writeHead(200  {
+            'Content-Type': 'text/plain'
+        })next
+        req.end('so hello\nmuch world')next
+    }
