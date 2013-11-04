@@ -172,8 +172,9 @@ var syntax = [
     }
 ];
 
-module.exports = function toDoge(js){
-    var doge = '';
+module.exports = function toDoge(js, callback){
+    var doge = '',
+        error;
     while(js.length){
         var passed = false;
 
@@ -186,9 +187,9 @@ module.exports = function toDoge(js){
             }
         }
         if(!passed){
-            throw dogeify('such error much confuse wow:') + ' ' + js.slice(0, 50);
+            error = dogeify('such error much confuse wow:') + ' ' + js.slice(0, 50);
             break;
         }
     }
-    return doge;
+    callback(error, !error && doge);
 }
