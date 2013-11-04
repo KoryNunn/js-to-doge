@@ -1,64 +1,64 @@
 shh THIS IS DOGESCRIPT
 
-very dogeudle as require('dogeudle')next
-very wow as require('boring')next
+very dogeudle as require much 'dogeudle' next
+very wow as require much 'boring' next
 
 very dogescript as 'such messy; very doge-friendly'
 
-    such woof(foo  bar  bat) {
-        console.log(foo)next
+    such woof much foo bar bat  
+        console.loge much foo next
 
-        such nested() {
-            console.log(['so'  'wow'])next
-        }
-        nested()next
+        such nested much   
+            console.loge much ['so' 'wow'] next
+        wow
+        nested much  next
         return barnext
-    }
+    wow
 
-woof('multiple'  'doge'  'properties wow')next
+woof much 'multiple' 'doge' 'properties wow' next
 
 very cat as 'not a doge'
 
-many (woof asasas 'doges only' and cat not 'doge' or cat asasas 'not a doge') {
-    console.log({
+many  much woof is 'doges only' and cat not 'doge' or cat is 'not a doge'  
+    console.loge much  
         such: 'doge'
-    })next
-}
+    wow next
+wow
 
-rly (woof asasas 'doges only' and cat not 'doge' or cat asasas 'not a doge') {
-    console.log({
+rly  much woof is 'doges only' and cat not 'doge' or cat is 'not a doge'  
+    console.loge much  
         such: 'doge' 
         wow: 'dogee'
-    })next
-}
+    wow next
+wow
 
-much (var woof as 1next woof lesser 3next woof more 1) {
-    console.log({
+much  much var woof as 1next woof lesser 3next woof more 1  
+    console.loge much  
         such: 'doge'
-    })next
-}
+    wow next
+wow
 
 shh chaining
-very canvas as d3.select('body')
-    .append('canvas')
-    .attr('width'  width)
-    .attr('height'  height)next
+very canvas as d3.select much 'body' 
+    .append much 'canvas' 
+    .attr much 'width' width 
+    .attr much 'height' height next
 
-very regex as new RegExp(keyword  'g')next
-very regex2 as new RegExp('doge'  'g')next
+very regex as new RegExp much keyword 'g' next
+very regex2 as new RegExp much 'doge' 'g' next
 
-very arr as new Array(0)next
+very arr as new Array much 0 next
 
-obj as new Object()next
+obj as new Object much  next
 
 module.exports as woof
 
 shh example http server
 
-very http as require('http')next
-http.createServer(function(req  res) {
-        req.writeHead(200  {
+very http as require much 'http' next
+http.createServer much function much req res  
+        req.writeHead much 200  
             'Content-Type': 'text/plain'
-        })next
-        req.end('so hello\nmuch world')next
-    }
+        wow next
+        req.end much 'so hello\nmuch world' next
+    wow
